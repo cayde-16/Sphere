@@ -29,5 +29,38 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 10px auto;
-  padding: 10px 20px;
+  padding:4rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.title-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title-container{
+  z-index: 2;
+  color: white;
+  position: absolute;
+  padding-left:4rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  transform: translate(34%, 25%);
+}
+
+.title{
+  font-weight: bold;
+
 }
