@@ -7,4 +7,27 @@
 body,
 html{
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.webgl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav{
+  color: white;
+  z-index: 2;
+  position: relative;
+  max-width: 1200px;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px 20px;
 }
