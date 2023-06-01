@@ -93,7 +93,6 @@ window.addEventListener('mousemove', (e) => {
         Math.round((e.pageY / size.height ) * 255),
         150,
     ]
-    console.log(`r:${rgb[0]},g:${rgb[1]},b:${rgb[2]} `)
 
     //Let's animate
     let newColor = new THREE.Color(`rgb(${rgb.join(",")})`)
